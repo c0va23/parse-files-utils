@@ -1,6 +1,7 @@
-var FileAdapter = require('parse-server-fs-adapter');
-var S3Adapter = require('parse-server-s3-adapter');
-var GCSAdapter = require('parse-server-gcs-adapter');
+// var FileAdapter = require('parse-server-fs-adapter');
+// var S3Adapter = require('parse-server-s3-adapter');
+// var GCSAdapter = require('parse-server-gcs-adapter');
+// var MongoGridAdapter = require('parse-server-gridfs-adapter');
 
 module.exports = {
   applicationId: "PARSE_APPLICATION_ID",
@@ -43,5 +44,8 @@ module.exports = {
   //   projectId: "GCS_PROJECT_ID",
   //   keyFilename: "credentials.json",
   //   bucket: "BUCKET_NAME",
+  // }),
+  // filesAdapter: new MongoGridAdapter({
+  //   mongodbURL: "mongodb://mongohost/database",
   // }),
 };
